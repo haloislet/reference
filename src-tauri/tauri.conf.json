@@ -50,10 +50,10 @@
     "windows": [
       {
         "fullscreen": false,
-        "height": 600,
+        "height": 768,
         "resizable": true,
         "title": "备忘清单",
-        "width": 800
+        "width": 1366
       }
     ]
   }
