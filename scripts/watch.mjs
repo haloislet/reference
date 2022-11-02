@@ -1,7 +1,7 @@
-import path from 'path';
 import chokidar from 'chokidar';
+import path from 'path';
 import { getStat } from 'recursive-readdir-files';
-import { run, DOCS, createHTML } from './index.mjs';
+import { createHTML, DOCS, run } from './index.mjs';
 
 (async () => {
   await run();

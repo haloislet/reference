@@ -7,9 +7,12 @@
   "homepage": "https://jaywcjlove.github.io/reference",
   "private": false,
   "scripts": {
+    "dev": "http-server ./dist -p 10081 -c-1 & npm run start",
     "prepare": "husky install",
     "build": "node scripts/build.mjs",
     "start": "node scripts/watch.mjs",
+    "t:dev": "tauri dev",
+    "t:build": "tauri build",
     "prettier": "prettier --write '**/*.{mjs,css,json,prettierrc,lintstagedrc}'"
   },
   "repository": {
